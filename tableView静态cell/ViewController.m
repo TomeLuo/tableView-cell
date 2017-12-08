@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "TableViewController.h"
 
 @interface ViewController ()
+
 
 @end
 
@@ -16,9 +18,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"%@",self.childViewControllers);
+    TableViewController * tableViewV = self.childViewControllers[0];
+    NSLog(@"%@",tableViewV.NaviTitle);
 }
 
+
+- (IBAction)aa:(id)sender {
+    NSLog(@"这样也可以嘞");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -26,4 +35,6 @@
 }
 
 
+- (IBAction)btn:(id)sender {
+}
 @end

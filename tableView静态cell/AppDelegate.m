@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+   
+     UIStoryboard *storyb = [UIStoryboard  storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    ViewController * viewV = [storyb instantiateViewControllerWithIdentifier:@"ViewController"];
+    UINavigationController *naviV = [[UINavigationController alloc] initWithRootViewController:viewV];
+    self.window.rootViewController = naviV;
     return YES;
 }
 

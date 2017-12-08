@@ -14,6 +14,7 @@
 		C302C0171F9F300300880C98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C302C0151F9F300300880C98 /* LaunchScreen.storyboard */; };
 		C302C01A1F9F300300880C98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C302C0191F9F300300880C98 /* main.m */; };
 		C302C0241F9F300400880C98 /* tableView__cellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C302C0231F9F300400880C98 /* tableView__cellTests.m */; };
+		C302C0301F9F35EA00880C98 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C302C02F1F9F35EA00880C98 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C302C01F1F9F300300880C98 /* tableView静态cellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tableView静态cellTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C302C0231F9F300400880C98 /* tableView__cellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableView__cellTests.m; sourceTree = "<group>"; };
 		C302C0251F9F300400880C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C302C02E1F9F35EA00880C98 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		C302C02F1F9F35EA00880C98 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				C302C00B1F9F300100880C98 /* AppDelegate.m */,
 				C302C00D1F9F300200880C98 /* ViewController.h */,
 				C302C00E1F9F300200880C98 /* ViewController.m */,
+				C302C02E1F9F35EA00880C98 /* TableViewController.h */,
+				C302C02F1F9F35EA00880C98 /* TableViewController.m */,
 				C302C0101F9F300200880C98 /* Main.storyboard */,
 				C302C0131F9F300300880C98 /* Assets.xcassets */,
 				C302C0151F9F300300880C98 /* LaunchScreen.storyboard */,
@@ -208,6 +213,7 @@
 				C302C00F1F9F300200880C98 /* ViewController.m in Sources */,
 				C302C01A1F9F300300880C98 /* main.m in Sources */,
 				C302C00C1F9F300100880C98 /* AppDelegate.m in Sources */,
+				C302C0301F9F35EA00880C98 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
